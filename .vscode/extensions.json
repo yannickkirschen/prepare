@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "streetsidesoftware.code-spell-checker",
+    "editorconfig.editorconfig",
+    "davidanson.vscode-markdownlint",
+    "sonarsource.sonarlint-vscode",
+    "wayou.vscode-todo-highlight",
+    "redhat.vscode-yaml",
+    "github.vscode-github-actions",
+    "golang.go"
+  ]
+}

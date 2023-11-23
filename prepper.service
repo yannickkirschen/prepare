@@ -1,0 +1,7 @@
+[Unit]
+Description=Prepper D-Day service
+Requires=Network.target
+After=Network.target
+
+[Service]
+ExecStart=/usr/bin/prepper
