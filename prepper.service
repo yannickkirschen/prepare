@@ -4,4 +4,6 @@ Requires=Network.target
 After=Network.target
 
 [Service]
+User=
+Group=
 ExecStart=/usr/bin/prepper

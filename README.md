@@ -24,7 +24,13 @@ Then you can build and install prepper:
 ```bash
 
 ```bash
+git clone https://github.com/yannickkirschen/prepper.git
+cd prepper
 go build -ldflags "-linkmode 'external' -extldflags '-static'" -o prepper cmd/main.go
+
+# Change user and group to run the service as
+vim prepper.service
+
 sudo cp prepper /usr/bin/prepper
 sudo cp prepper.service /etc/systemd/system/prepper.service
 sudo systemctl enable prepper.service
